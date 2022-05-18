@@ -1,0 +1,82 @@
+
+    h1 {
+       
+  
+        font-size: 40px;
+        font-family: Arial, 
+            Helvetica, sans-serif;
+        background: linear-gradient( #ffffff, #677200fa,
+           );
+        -webkit-text-fill-color: transparent;
+       
+
+      
+    }
+
+    #hero {
+        width: 100%;
+        height: 100vh;
+        background: url('images/heroheaders/abouthero.jpg') no-repeat center / cover;
+        color: whitesmoke;
+    }
+    
+    #hero h1 {
+        margin-top: 520px;
+        font-size: 4.5rem;
+        font-weight: bolder;
+    }
+
+#blue{
+    
+    padding: auto;
+    
+     background: -moz-radial-gradient(#ffffff, #fff566fa);
+     text-align: center;
+}
+
+#name{
+
+    text-align: center;
+    
+}
+
+#centerLine{
+    text-align: center;
+}
+
+#ceo{
+    width: 30px;
+    height: 10px;
+}
+
+#ceo{
+    text-align: center;
+
+text-indent: 200px;}
+
+
+
+#green{
+
+    padding: auto;
+    color: grey;
+    background: -moz-radial-gradient(#ffffff, #fff566fa);
+    text-align: center;
+
+}
+
+#lower{
+    color: black;
+}
+
+#national{
+    text-align: center;
+}
+
+
+.bacon{
+    width: 300px;
+  
+    text-align: ;
+    background-color: aqua;
+}
