@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <g>
+    <path d="M125.34776,118.33969a56.31255,56.31255,0,0,0,0,112.62509H450c-10.536,0-26.5215-25.212-26.5215-56.31254S439.464,118.33969,450,118.33969Z" fill="#fff" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <path d="M450,250H125.34776a75.34777,75.34777,0,0,1,0-150.69553H450v19.03522H125.34776a56.31255,56.31255,0,0,0,0,112.62509H450Z" fill="#0055a0" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+    <g>
+      <line x1="128.12165" y1="155.91443" x2="425.17177" y2="155.91443" fill="#fff" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <line x1="425.17177" y1="193.39004" x2="128.12165" y2="193.39004" fill="#fff" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    </g>
+    <polygon points="230.742 207.468 197.68 192.141 164.617 207.468 164.617 155.914 230.742 155.914 230.742 207.468" fill="#de9d27" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <path d="M374.65219,269.03522a56.31255,56.31255,0,1,1,0,112.62509H50c10.536,0,26.5215-25.212,26.5215-56.31255S60.536,269.03522,50,269.03522Z" fill="#fff" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <path d="M50,400.69553H374.65219a75.34777,75.34777,0,1,0,0-150.69553H50v19.03522H374.65219a56.31255,56.31255,0,1,1,0,112.62509H50Z" fill="#c3cae3" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <g>
+      <line x1="371.87831" y1="306.60996" x2="74.82819" y2="306.60996" fill="#fff" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <line x1="74.82819" y1="344.08557" x2="371.87831" y2="344.08557" fill="#fff" stroke="#0054a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
