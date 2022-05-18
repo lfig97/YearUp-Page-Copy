@@ -6,10 +6,300 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Locations Across the US | Year Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
-<body>
-    
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="locations.css">
+  </head>
+  
+          </header>
+    <main class="page__content" id="js-main">
+      <div class="teal-gradient-right-corner">
+  <section class="location-search landing">
+    <div class="content-container">
+      <h1 class="d-md-none">Locations</h1>
+      <div class="row">
+        <div class="col-md-7 col-lg-8">
+          <img src="YearUp Images\Locations\Map Only Graphic (w. Dots).png"
+                      />
+        </div>
+        <div class="col-md-5 col-lg-4 no-map">
+          <h1 class="d-none d-md-block"><span class="field field--name-title field--type-string field--label-hidden">Locations</span>
+</h1>
+          <h2 class="section-title">Find The Nearest Campus</h2>
+          <p>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item raw content"><p>Enter your zip code or select a location to find the nearest Year Up campus and see the kinds of courses you can take there.</p></div>
+      </p>
+          <form>
+            <div class="row no-gutters">
+              <div class="col-7">
+                <label class="input-label">
+                  <input type="text" name="zipcode" class="input-box" required>
+                  <span class="input-placeholder">ZIP Code</span>
+                </label>
+              </div>
+              <div class="col-4 offset-1">
+                <input type="submit" class="button secondary zipcode_search_btn" value="search">
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="field-divider">&mdash;or&mdash;</div>
+            <div class="filter-wrap">
+              <a class="filter-label collapsed" data-toggle="collapse" href="#filter-options" role="button" aria-expanded="false" aria-controls="filter-options"><span>Select location...</span></a>
+              <div class="filter-options collapse" id="filter-options">
+                <ul class="list-unstyled"></ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <section class="location-search-list">
+                                        
+      
+      <div class="location-group gradient lightblue-gradient-left-corner">
+        <section class="location-detail">
+          <div class="content-container">
+            <h3 class="heading-upper icon location-lg">Arizona</h3>
+            <div class="grid-three-up">
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/az-phoenix">Central City Campus <i class="icon rarrow-alternate"></i></a>
+                  </div>
+                                      <div class="address">
+                      Gateway Community College<br>1245 E Buckeye Road<br>Phoenix, AZ 85034
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(480) 376-0898">(480) 376-0898</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=Gateway Community College+1245 E Buckeye Road,+Phoenix,+AZ+85034" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/az-mesa">East Valley Campus <i class="icon rarrow-alternate"></i></a>
+                  </div>
+                                      <div class="address">
+                      1255 West Baseline Road<br>Southern New Hampshire University<br>Mesa, AZ 85202
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(480) 581-2949">(480) 581-2949</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=1255 West Baseline Road+Southern New Hampshire University,+Mesa,+AZ+85202" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/az-phoenix-virtual-campus">Virtual Campus <i class="icon rarrow-alternate"></i></a>
+                  </div>
+                                      <div class="address">
+                      <br>Virtual Campus<br>Phoenix, AZ 85034
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(480) 376-0898">(480) 376-0898</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=+Virtual Campus,+Phoenix,+AZ+85034" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                          </div>
+          </div>
+        </section>
+      </div>
+                      
+      
+      <div class="location-group">
+        <section class="location-detail">
+          <div class="content-container">
+            <h3 class="heading-upper icon location-lg">Baltimore</h3>
+            <div class="grid-three-up">
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/md-baltimore">Druid Hill YMCA Campus <i class="icon rarrow-alternate"></i></a>
+                  </div>
+                                      <div class="address">
+                      YMCA Druid Hill<br>1609 Druid Hill Ave<br>Baltimore, MD 21217
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(410) 844-7939">(410) 844-7939</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=YMCA Druid Hill+1609 Druid Hill Ave,+Baltimore,+MD+21217" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                          </div>
+          </div>
+        </section>
+      </div>
+                                            
+      
+      <div class="location-group gradient-background yellow-gradient-left-corner">
+        <section class="location-detail">
+          <div class="content-container">
+            <h3 class="heading-upper icon location-lg">Bay Area</h3>
+            <div class="grid-three-up">
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/ca-concord">Diablo Valley Campus <i class="icon rarrow"></i></a>
+                  </div>
+                                      <div class="address">
+                      Diablo Valley College<br>321 Golf Club Rd., L-100<br>Pleasant Hill, CA 94523
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(925) 338-8545">(925) 338-8545</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=Diablo Valley College+321 Golf Club Rd., L-100,+Pleasant Hill,+CA+94523" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/ca-menlo-park">Menlo Park Campus <i class="icon rarrow"></i></a>
+                  </div>
+                                      <div class="address">
+                      Community Hub at Meta<br>1010 O'Brien Drive<br>Menlo Park, CA 94025
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(650) 540-9386">(650) 540-9386</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=Community Hub at Meta+1010 O&#039;Brien Drive,+Menlo Park,+CA+94025" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/ca-san-francisco">San Francisco Campus <i class="icon rarrow"></i></a>
+                  </div>
+                                      <div class="address">
+                      <br>80 Sutter St, 1st Floor<br>San Francisco, CA 94104
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(415) 512-7588">(415) 512-7588</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=+80 Sutter St, 1st Floor,+San Francisco,+CA+94104" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/ca-san-jose">Silicon Valley Campus <i class="icon rarrow"></i></a>
+                  </div>
+                                      <div class="address">
+                      450 W Santa Clara St., Suite 220<br>San Jose, CA 95110
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(669) 243-4355">(669) 243-4355</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=450 W Santa Clara St., Suite 220,+San Jose,+CA+95110" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/ca-sanfrancisco-virtual-campus">Virtual Campus <i class="icon rarrow"></i></a>
+                  </div>
+                                      <div class="address">
+                      <br>Virtual Campus<br>San Francisco, CA 94104
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(415) 512-7588">(415) 512-7588</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=+Virtual Campus,+San Francisco,+CA+94104" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                          </div>
+          </div>
+        </section>
+      </div>
+                                    
+      
+      <div class="location-group">
+        <section class="location-detail">
+          <div class="content-container">
+            <h3 class="heading-upper icon location-lg">Charlotte</h3>
+            <div class="grid-three-up">
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/nc-charlotte">Central Campus <i class="icon rarrow-alternate"></i></a>
+                  </div>
+                                      <div class="address">
+                      Central Piedmont Community College<br>1321 Charlottetowne Ave<br>Charlotte, NC 28204
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:704-839-2490">704-839-2490</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=Central Piedmont Community College+1321 Charlottetowne Ave,+Charlotte,+NC+28204" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                          </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="location-group gradient-background yellow-gradient-left-corner">
+        <section class="location-detail">
+          <div class="content-container">
+            <h3 class="heading-upper icon location-lg">Greater Atlanta</h3>
+            <div class="grid-three-up">
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/ga-atlanta">AMSC Campus <i class="icon rarrow"></i></a>
+                  </div>
+                                      <div class="address">
+                      Atlanta Metropolitan State College<br>1630 Metropolitan Parkway, SW<br>Atlanta, GA 30310
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(404) 249-0300">(404) 249-0300</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=Atlanta Metropolitan State College+1630 Metropolitan Parkway, SW,+Atlanta,+GA+30310" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/ga-atlanta-virtual-campus">Virtual Campus <i class="icon rarrow"></i></a>
+                  </div>
+                                      <div class="address">
+                      <br>Virtual Campus<br>Atlanta, GA 30310
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(404) 249-0300">(404) 249-0300</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=+Virtual Campus,+Atlanta,+GA+30310" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                          </div>
+          </div>
+        </section>
+      </div>
+                                    
+      <div class="location-group gradient-background yellow-gradient-left-corner">
+        <section class="location-detail">
+          <div class="content-container">
+            <h3 class="heading-upper icon location-lg">Wilmington</h3>
+            <div class="grid-three-up">
+                              <div class="location grid-item">
+                  <div class="campus-name">
+                    <a href="/locations/de-wilmington">New Castle Campus <i class="icon rarrow"></i></a>
+                  </div>
+                                      <div class="address">
+                      Wilmington University<br>320 North DuPont Highway, The Green 303<br>New Castle, DE 19720
+                    </div>
+                                                        <ul class="list-unstyled">
+                                              <li><a href="tel:(302) 992-8806">(302) 992-8806</a></li>
+                                                                    <li><a href="http://maps.google.com/?daddr=Wilmington University+320 North DuPont Highway, The Green 303,+New Castle,+DE+19720" target="_blank">Directions</a></li>
+                                          </ul>
+                                  </div>
+                          </div>
+          </div>
+        </section>
+      </div>
+      </section>
+
+<div class="teal-gradient-right-corner">
+    <section class="text-simple">
+        <div class="content-container">
+            <div class="row justify-content-center text-md-center">
+                <div class="col-md-6">
+                    <div class="with-corners alternate">
+                        <div class="inner">
+                            <p class="small-text">Don’t see your city? You can still explore useful <a href="#" class="text-link">career resources</a> here.</p>
+                            <p class="small-text">Corporations and community builders — <a href="/bring-yearup-to-you" class="text-link">Request</a> to bring Year Up to your area.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="c-sticky-menu sticky-navigation-container">
+              <ul class="c-menu__list menu">
+                    <li class="bg-yellow menu-item">
+        <a href="https://www.yearup.org/get-started" target="_blank">Apply</a>
+              </li>
+        </ul>
+</div>
+    </main>
 </html>
