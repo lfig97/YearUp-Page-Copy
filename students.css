@@ -73,6 +73,8 @@
 
 
 
+
+
 .container-header{
 
     background-color:transparent #0054a0; 
@@ -172,4 +174,66 @@ footer path{
 }
 
 
+#info-header{
+    color: black;
+    font-size: 36px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    margin: 0px 0px 10px;
+}
 
+.info-text{
+    color: #444444;
+    font-family: Helvetica;
+    font-size: 15px;
+    margin: 0px 0px 10px;
+}
+
+#exampleFormControlInput1{
+    color: #444444;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+    
+
+}
+
+#request-button{
+    background-color: #EEEEEE;
+    color: #444444;
+}
+
+#invalid{
+    color: #FF0126;
+    font: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#student-services{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.col-6 img{
+    max-width: 100%;
+    height: auto;
+}
+
+#text-align{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.col-6 button{
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.form{
+    text-align: left;
+}
