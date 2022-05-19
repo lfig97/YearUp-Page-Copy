@@ -4,50 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
-
-
-
-#hero {
-    width: 100%;
-    height: 80vh;
-    background: url('YearUp Images/Home/heroheaders/traininghero3.jpg') no-repeat center / cover;
-    color: whitesmoke;
-}
-
-#hero h1 {
-    margin-top: 10%;
-    font-size: 4.0rem;
-    font-weight: bolder;
-    max-width: 45%;
-}
-
-#hero p {
-    margin-top: 2%;
-    font-size: 1.8rem;
-    max-width: 1000px;
-}
-
-#hero input {
-    margin-top: 2%;
-    height: 60px;
-    width: 300px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-}
-
-#hero button {
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 1.4rem;
-    height: 60px;
-    width: 300px;
-}
-
 #ourapproach {
     margin-top: 50px;
 }
@@ -295,4 +251,40 @@ footer h3 {
 
 footer path{
     color: #0054a0;
+}
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url('YearUp Images/Home/heroheaders/traininghero3.jpg') no-repeat center / cover;
+    color: whitesmoke;
+}
+
+#hero h1 {
+    margin-top: 10%;
+    font-size: 4.0rem;
+    font-weight: bolder;
+    max-width: 45%;
+}
+
+#hero p {
+    margin-top: 2%;
+    font-size: 1.8rem;
+    max-width: 1000px;
+}
+
+#hero input {
+    margin-top: 2%;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+#hero button {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    height: 60px;
+    width: 300px;
 }
