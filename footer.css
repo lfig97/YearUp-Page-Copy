@@ -11,12 +11,6 @@ header{
 }
 
 
-nav{
-text-align: right;
-align-self: start;
-}
-
-
 .button {
     display: inline-block;
     font-weight: 700;
