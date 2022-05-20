@@ -270,3 +270,43 @@ footer path{
       padding-bottom: 20px;
   
   }
+
+
+  .video-title{
+      margin-top: 20px;
+    text-align: center;
+}
+.video-row{
+    text-align: center;
+}
+.video-button{
+    width: 25px;
+}
+.video-section p { 
+    color: black;
+    width: 400px;
+    height:200px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 30px;
+    overflow: hidden;}
+    
+   .video-section .wrap { display:flex;align-items:center}
+    .video-section .flex {
+        display: flex;
+        justify-content: center;
+      }
+      
+     .video-section .flex-item + .flex-item {
+        margin-left: 10px;
+      }
+      
+
+.video-section .col-6 text-center{
+    text-align: center;
+}
+
+.video-section img {
+    margin-top: 20px;
+}
