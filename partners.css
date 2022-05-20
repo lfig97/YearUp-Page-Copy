@@ -135,15 +135,15 @@ a{
 .in-demand{
     margin-top: 0;
     margin-bottom: 5px;
-    font-weight: 700, bold;
+    font-weight: 700, bold !important;
     line-height: 1.2;
-    font-family: Helvetica, sans-serif;
+    font-family: "Gotham A", "Gotham B", Helvetica, sans-serif !important;
     margin-bottom: 48px;
     color: #000;
-    font-size: 20px;
+    font-size: 10px !important;
     display: block;
     position: relative;
-    bottom: 80px;
+    top: 30px;
 
 
 }
@@ -179,10 +179,12 @@ a{
 }
 
 .training{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
     position: relative;
-    bottom: 50px;
+    top: 2px;
+
+    
 }
 
 .gx-5{
@@ -331,6 +333,12 @@ a{
     
 }
 
+.career{
+    position: relative;
+    top: 5px;
+    color: rgb(68, 68, 68) !important;
+}
+
 
 
 
@@ -384,6 +392,14 @@ a{
 .career{
     position: relative;
     bottom: 75px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 
