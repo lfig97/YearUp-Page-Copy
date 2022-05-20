@@ -237,3 +237,36 @@ footer path{
 .form{
     text-align: left;
 }
+
+
+#changeText{
+    text-align: left;
+    font-size: 36px;
+    font-family: "Gotham A", "Gotham B", Helvetica, sans-serif;
+    padding-bottom: 20px;
+  
+      
+  }
+  
+   .col-md-6 > p{
+  
+    font-family: "Gotham A", "Gotham B", Helvetica, sans-serif;
+    color: #0054A0;
+    text-decoration-line: underline;
+    background-color: #F9FAFC;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 5x; 
+    border-spacing: 0;
+   
+   
+  }
+  
+  #h4Header{
+     
+      font-size: 20px;
+      font-family: "Gotham A", "Gotham B", Helvetica, sans-serif;
+      font-weight: lighter;
+      padding-bottom: 20px;
+  
+  }
